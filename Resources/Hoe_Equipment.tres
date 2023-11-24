@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Equipment_Resource" load_steps=2 format=3 uid="uid://dq65285kmgk2u"]
+
+[ext_resource type="Script" path="res://equipment_resource.gd" id="1_rr3vt"]
+
+[resource]
+script = ExtResource("1_rr3vt")
+durability = 10.0
