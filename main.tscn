@@ -23,15 +23,21 @@ resource_for_item = ExtResource("5_gdivh")
 [node name="Instructions" type="Node" parent="."]
 
 [node name="Step 1" type="Sprite2D" parent="Instructions"]
-position = Vector2(964, 1584)
-texture = ExtResource("6_hd3p7")
+position = Vector2(237, 163)
+texture = ExtResource("8_jq1d7")
 
-[node name="Step 2 is populate your resource script with class and vars" type="Node" parent="Instructions"]
+[node name="Step 2" type="Label" parent="Instructions"]
+offset_left = 10.0
+offset_top = 383.0
+offset_right = 903.0
+offset_bottom = 443.0
+text = "Step 2 is populate your resource script with class and @export var for your variables to adjust per resource instance
+Check \"item_resource.gd\" and \"equipment_resource.gd\""
 
 [node name="Step 3" type="Sprite2D" parent="Instructions"]
 position = Vector2(420, 740)
 texture = ExtResource("1_vw38h")
 
 [node name="Step 4" type="Sprite2D" parent="Instructions"]
-position = Vector2(237, 163)
-texture = ExtResource("8_jq1d7")
+position = Vector2(964, 1584)
+texture = ExtResource("6_hd3p7")
